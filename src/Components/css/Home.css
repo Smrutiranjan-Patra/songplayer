@@ -1,0 +1,123 @@
+.Home {
+  padding: 10px;
+  width: 75%;
+  height: auto;
+  box-sizing: border-box;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5%;
+  justify-content: space-between;
+}
+.songbox {
+  border: 1px solid;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: transform 0.2s;
+}
+
+.songbox:hover {
+  transform: scale(1.1);
+}
+
+.songname {
+  margin: 10px auto 0px;
+  letter-spacing: 1px;
+  color: tomato;
+}
+.artistname {
+  margin: 10px auto 21px;
+  letter-spacing: 1px;
+  color: aqua;
+  text-align: center;
+  height: 37px;
+}
+.songbox img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.playbtn {
+  color: whitesmoke;
+  margin: auto;
+  font-size: 1.5em;
+}
+.playbtn:hover {
+  transform: scale(1.5);
+}
+.backbutton {
+  font-size: 35px;
+  color: white;
+  position: relative;
+  top: 1em;
+  left: 2%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+  .Home {
+    padding: 10px;
+    width: 84%;
+    height: 101vh;
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+    justify-content: space-between;
+    margin-bottom: 180px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .Home {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2% 4%;
+    justify-content: space-between;
+    margin-bottom: 180px;
+  }
+  .songbox {
+    border: 1px solid;
+    width: 160px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .songbox:hover {
+    transform: scale(1.05);
+  }
+  .backbutton {
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: 1em;
+    left: 4%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 14px;
+  }
+}

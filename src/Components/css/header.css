@@ -1,0 +1,59 @@
+.header {
+  padding: 10px;
+  border-width: 5px;
+  margin-bottom: 60px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+.heading {
+  color: aliceblue;
+  letter-spacing: 4px;
+  font-size: 22px;
+  margin-left: 12px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+  .header {
+    padding: 10px;
+    border-width: 5px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .header {
+    padding: 10px;
+    border-width: 5px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .heading {
+    color: whitesmoke;
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .heading {
+    color: whitesmoke;
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: 26px;
+  }
+}

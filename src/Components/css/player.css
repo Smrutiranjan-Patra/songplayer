@@ -1,0 +1,110 @@
+.playerpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.player {
+  width: 500px;
+  margin: 10px auto;
+  background: rgba(255, 255, 255, 0) !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.player img {
+  width: 350px;
+  height: 350px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+.rhap_container {
+  background-color: transparent;
+}
+
+.rhap_container svg {
+  color: #d9ce3f !important;
+}
+.rhap_volume-indicator {
+  background: #d9ce3f !important;
+}
+.rhap_volume-bar {
+  background: #2fa4ff !important;
+}
+.rhap_progress-bar-show-download {
+  background-color: #d9ce3f !important;
+}
+.rhap_progress-indicator {
+  background: #2fa4ff !important;
+}
+.rhap_time {
+  color: tomato !important;
+}
+.rhap_progress-filled {
+  background-color: #d9ce3f !important;
+}
+.rhap_download-progress {
+  background-color: #d9ce3f !important;
+}
+.playingsongname {
+  color: whitesmoke;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .player {
+    width: 349px;
+    margin: 10px auto;
+    background: rgba(255, 255, 255, 0) !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .player img {
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+    border-radius: 50%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .player {
+    width: 349px;
+    margin: 10px auto;
+    background: rgba(255, 255, 255, 0) !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .player img {
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+    border-radius: 50%;
+  }
+}
