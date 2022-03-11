@@ -1,6 +1,6 @@
 .Home {
   padding: 10px;
-  width: 75%;
+  width: 97%;
   height: auto;
   box-sizing: border-box;
   margin: 10px auto;
@@ -56,12 +56,13 @@
 }
 .backbutton {
   font-size: 35px;
-  color: white;
-  position: relative;
-  top: 1em;
-  left: 2%;
-  border: 1px solid white;
-  border-radius: 50%;
+    color: white;
+    position: relative;
+    top: 1em;
+    left: 2%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 3%;
 }
 
 @media only screen and (max-width: 1200px) {
